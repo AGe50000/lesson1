@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+<style type="text/css">
+	.gray {
+		background-color: #C0C0C0; font-family: arial; font-size: 14px;
+	}
+
+	header { box-sizing: border-box;
+			padding-left: 100px;
+			padding-right: 100px;
+			padding-bottom: 1%;
+			padding-top: 1%;
+
+	}
+
+	header .left, header .right {float: left;}
+	header .left { display: flex; color: #696969; box-sizing: border-box; text-align: left;}
+	header .right { display: flex; color: #696969; box-sizing: border-box; }
+
+	
+
+	#content {	height: : 500px;
+				padding-left: 100px;
+				padding-right: 100px;
+				font-size: 14px; 
+
+	}
+
+	.round {background-color: #C0C0C0; height: 18px; width: 18px; border-radius: 50%}
+
+	.cub {background-color: #C0C0C0; width: 280px; height: 250px; display: table; color: #696969;}
+	.cub1 {background-color: white; height: 250px; width: 10px;}
+
+	footer {font-size: 14px; box-sizing: border-box;
+			
+			padding-left: 100px;
+			padding-right: 100px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			margin-top: 10px;}
+
+	
+	A:visited {color: #696969; }
+	A:link {color: #696969; text-decoration: none;}
+	A:hover {color: red}
+	A:active {color: red}
+	
+
+
+</style>
+
+</head>
+
+
+
+<body>
+<header class="gray">
+
+	<div style="display: flex; color: #696969; box-sizing: border-box;" /*<Блок под блоки Logo и Linkи*/ >
+
+		<div class="left" style="width: 50%;" /*<Разметка левого блока под Logo*/ >
+			<div style="font-size: 22px; margin-bottom: 12px;" /*<Блок под Logo*/ >Logo</div>
+		</div>
+
+			<div class="right" style=" width: 50%; justify-content: space-between;"  /*<Разметка правого блока под Linkи*/ >
+				<a href="https://t.me">Link 1</a>
+				<a href="https://vk.com">Link 2</a>
+				<a href="https://ok.ru">Link 3</a>
+				<a href="https://2gis.ru">Link 4</a>
+				<a href="https://facebook.com">Link 5</a>
+				<a href="https://instagram.com">Link 6</a>
+			</div>
+	</div>
+
+
+	<div style="display: flex; color: #696969; box-sizing: border-box;" /*Общий блок под Intro, Some.. и Slider*/ >
+
+		<div class="left" style="width: 100%"><div style="width: 40%; color: #696969;" /*Разметка левого блока под блоки Intro и Some..*/ >
+
+			<div style="color: #696969;"><h1 style="margin-top: 0px; margin-bottom: 0px;">Intro</h1></div>
+			<div style="color: #696969;">Some introduction lines about the website or company</div>
+
+		</div>
+
+		<div class="right" style="display: table; width: 60%; justify-content: center; ">
+			<div style="background-color: #A0A0A0; display: table-cell; height: 100px; text-align: left; vertical-align: middle; padding-left: 30px;">Featured Project<br>Slider</div>
+		</div>
+
+	</div>
+
+</header>
+
+	
+<div id="content" style="margin-top: 20px; color: #696969;">
+
+	<div style="display: flex; color: #696969; box-sizing: border-box; margin-bottom: 20px; " /* Общий блок под блок-пустышку и блок под круги */ >
+
+		<div class="left" style="color: #696969; width: 40%;" /* Разметка левого блока-пустышки*/ ></div>
+
+
+
+		<div class="right" style="display: flex; width: 60%; justify-content: center; color: #696969;" /*Разметка правого блока под круги*/ >
+
+			<div style="width: 40%; display: flex; justify-content: space-between; color: #C0C0C0; ">
+			
+				<div class="round" ></div>
+				<div class="round" ></div>
+				<div class="round" ></div>
+				<div class="round" ></div>
+				<div class="round" ></div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<div style="display: flex; justify-content: space-between; color: #696969; margin-bottom: 25px;">
+		
+		<div class="cub">
+			<div style="display: table-cell; text-align: center; vertical-align: middle; color: #696969;">Services</div>
+		</div>
+
+		<div class="cub1"></div>
+
+		<div class="cub">
+			<div style="display: table-cell; text-align: center; vertical-align: middle; color: #696969;">Services</div>
+		</div>
+
+		<div class="cub1"></div>
+
+		<div class="cub">
+			<div style="display: table-cell; text-align: center; vertical-align: middle; color: #696969;">Services</div>
+		</div>
+
+	</div>
+	<div style="display: flex; justify-content: space-between; color: #696969; margin-bottom: 25px;">
+		
+		<div class="cub">
+			<div style="display: table-cell; text-align: center; vertical-align: middle; color: #696969;">Recent<br>Work</div>
+		</div>
+
+		<div class="cub1"></div>
+
+		<div class="cub">
+			<div style="display: table-cell; text-align: center; vertical-align: middle; color: #696969;">Recent<br>Work</div>
+		</div>
+
+		<div class="cub1"></div>
+
+		<div class="cub">
+			<div style="display: table-cell; text-align: center; vertical-align: middle; color: #696969;">Recent<br>Work</div>
+		</div>
+
+	</div>
+
+	<div class="gray" style="display: table; height: 50px; width: 100%; padding-left: 10px;">
+		<div style="display: table-cell; vertical-align: middle; color: #696969; height: 100%;">Twitter Feed</div>
+
+	</div>
+
+</div>
+
+
+
+<footer class="gray">
+	
+	<div style="display: flex; color: #696969; box-sizing: border-box; " /*<Блок под блоки Linkи и инфо */ >
+
+			<div class="left" style="display: flex; width: 50%; color: #696969; vertical-align: middle;" /*<Разметка левого блока под Linkи */ >
+				<div style="display: flex; width: 100%; justify-content: space-between; color: #696969; vertical-align: middle; margin-bottom: 0px; margin-top: 0px;">
+
+					<a href="https://t.me">Link 1</a>
+					<a href="https://vk.com">Link 2</a>
+					<a href="https://ok.ru">Link 3</a>
+					<a href="https://2gis.ru">Link 4</a>
+					<a href="https://facebook.com">Link 5</a>
+					<a href="https://instagram.com">Link 6</a>
+				</div>
+			</div>		
+
+			<div class="right" style="width: 50%; display: flex; justify-content: flex-end; color: #696969; margin-bottom: 0px; margin-top: 0px;"  /*<Разметка правого блока под инфо */ >
+					<div style="width: 70%; display: flex; text-align: right; margin-bottom: 0px; margin-top: 0px; color: #696969" /*<Блок под инфо */ >&#169; 2022 AGe50000 | По всем вопросам пишите по адресу age50000@list.ru
+					</div>
+					
+			</div>
+	</div>
+</footer>
+</body>
+</html>
